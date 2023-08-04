@@ -28,9 +28,9 @@ function HamburgerMenu() {
           <div className="modal-content">
             <img className="close" onClick={handleCloseModal} src={CancelBtn} alt="" />
           <ul>
-          <li><a href="http//">Contacts</a></li>
-          <li><a href="http//">About</a></li>
-          <li><a href="http//">Projects</a></li>
+          <li><a href="#footer" onClick={handleCloseModal}>Contacts</a></li>
+          <li><a href="#descs-text" onClick={handleCloseModal}>About</a></li>
+          <li><a href="#real-projects"onClick={handleCloseModal}>Projects</a></li>
           </ul>
           </div>
         </div>

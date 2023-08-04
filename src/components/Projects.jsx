@@ -9,7 +9,7 @@ const Projects = () => {
          <p className='projects-tools'>
       {project.projectsTools}  
          </p>
-       <img src={project.realProjects}  className='real-projects' alt="" />
+       <img src={project.realProjects}  id='real-projects' alt="" />
         </div>
       ))}
     </div>

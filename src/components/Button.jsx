@@ -4,7 +4,7 @@ const Button = (props) => {
   return (
     <div className='div-button'>
         <button>{props.first}</button>
-        <button>{props.second}</button>
+        <button className='nav-contact'><a href="#footer">{props.second}</a></button>
     </div>
   )
 }

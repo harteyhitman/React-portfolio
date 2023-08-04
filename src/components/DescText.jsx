@@ -2,7 +2,7 @@ import React from 'react'
 
 const DescText = () => {
   return (
-    <div className='descs-text'>
+    <div id='descs-text'>
         <p> <span>ABOUT</span>  Hi, I'm Azeez Oyegoke,
          a front-end engineer experienced in writing clean 
          and reusable code with the latest tools.
