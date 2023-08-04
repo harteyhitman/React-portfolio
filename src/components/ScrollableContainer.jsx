@@ -2,8 +2,16 @@ import React from 'react'
 
 
 const ScrollableContainer = () => {
+	
+
+	const scrollToBottom = () => {
+		window.scrollTo({
+		  top: document.documentElement.scrollHeight,
+		  behavior: 'smooth',
+		});
+	  };
   return (
-    <div className="scroll">
+    <div id='scroll' onClick={scrollToBottom}>
 		<span></span>
 		<span></span>
 		<span></span>
