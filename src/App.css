@@ -138,10 +138,11 @@ button:hover {
   align-items: center;
   width: 800px;
   height: 350px;
-  margin: 0 auto;
+  margin: 0px auto;
+  margin-top: -60px;
   cursor: pointer;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", 
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .projects-links {
   border: 2px solid #777777;
@@ -156,6 +157,20 @@ button:hover {
   width: 95%;
   height: 400px;
   border-top: 2px solid #777777;
+}
+#visit-site{
+  background-color: #777777;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+#visit-site a{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
 }
 .community {
   display: flex;
@@ -351,6 +366,11 @@ button:hover {
     background-color: #111111;
     color: white;
     font-weight: bold;
+  }
+  .visit-project{
+    width: 300px;
+    background: #777777;
+    color: white;
   }
 }
 @media (max-width: 500px) {

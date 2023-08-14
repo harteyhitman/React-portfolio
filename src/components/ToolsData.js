@@ -61,27 +61,30 @@ export const ToolsData = [
     },
 ]
 
-
 export const projects = [
     {
         'id': '1',
         projectsTools: 'React, css, html',
         realProjects: Rentitpro,
+        gotoProjects:'https://rent-it-real-estate-platform.vercel.app/'
     },
     {
         'id': '2',
         projectsTools: 'React, css, html',
         realProjects: Workjeje,
+        gotoProjects:'https://rent-it-real-estate-platform.vercel.app/'
     },
     {
         'id': '3',
         projectsTools: 'React, css, html',
         realProjects: Rentitpro,
+        gotoProjects:'https://rent-it-real-estate-platform.vercel.app/'
     },
     {
         'id': '4',
         projectsTools: 'React, css, html',
         realProjects: Workjeje,
+        gotoProjects:'https://rent-it-real-estate-platform.vercel.app/'
     },
    
 ]

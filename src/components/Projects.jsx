@@ -2,6 +2,8 @@ import React from 'react'
 import {projects} from './ToolsData'
 
 const Projects = () => {
+
+
   return (
     <div className='projects-main-div'>
       {projects.map((project) =>(
@@ -9,7 +11,8 @@ const Projects = () => {
          <p className='projects-tools'>
       {project.projectsTools}  
          </p>
-       <img src={project.realProjects}  id='real-projects' alt="" />
+         <button id='visit-site'><a href={project.gotoProjects}>visit site</a></button>
+       <img src={project.realProjects}   id='real-projects' alt="" />
         </div>
       ))}
     </div>
