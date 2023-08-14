@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import CancelBtn from '../images/cancelBtn.jpg'
+import CancelBtn from '../images/cancelBtn.png'
 
 function HamburgerMenu() {
   const [isModalOpen, setIsModalOpen] = useState(false);
